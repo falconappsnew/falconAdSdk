@@ -1,0 +1,3 @@
+include ':falconAdSdk'
+include ':app'
+rootProject.name = "FalconAdSdk"
