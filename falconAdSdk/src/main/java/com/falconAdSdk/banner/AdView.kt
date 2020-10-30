@@ -30,7 +30,7 @@ open class AdView:AppCompatImageView {
         //setLayoutParams(params)
 
         maxHeight = context.resources.getDimensionPixelSize(R.dimen.banner_max_height)
-        minimumHeight = context.resources.getDimensionPixelSize(R.dimen.banner_max_height)
+        minimumHeight = context.resources.getDimensionPixelSize(R.dimen.banner_min_height)
         isClickable = true
         scaleType = ScaleType.CENTER_CROP
         setOnClickListener(onClickListener)
